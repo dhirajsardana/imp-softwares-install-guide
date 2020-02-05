@@ -1,7 +1,6 @@
 
-For Mac:
-
-1)Before setting up minishift, virtual driver is required.xhyve driver will be deprecated soon , so we're installing hyperkitrequired, below are steps to install & setup the same:
+1)Install VM Driver: Before setting up minishift, VM driver is required.
+  xhyve driver will be deprecated soon , so we're installing hyperkit, below are steps to install & setup the same:
 
    $ brew install docker-machine-driver-hyperkit
 
@@ -10,7 +9,6 @@ For Mac:
    $ sudo chmod u+s,+x /usr/local/bin/docker-machine-driver-hyperkit
 
 2) Install minishift
-
 
   $ brew cask install minishift
 
